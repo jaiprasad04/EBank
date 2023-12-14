@@ -1,0 +1,47 @@
+.home-container {
+  background-color: #152850;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  max-width: 1140px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 48px;
+  margin-bottom: 32px;
+}
+
+.website-logo {
+  width: 150px;
+}
+
+.logout-button {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #c3cad9;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.bank-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexibility-heading {
+  color: #ffffff;
+  font-size: 64px;
+  font-family: 'Roboto';
+  margin-top: 64px;
+}
+
+.digital-card {
+  margin-bottom: 96px;
+}
